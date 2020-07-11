@@ -1,0 +1,23 @@
+<% include ../partials/header.ejs %>
+<h1>Novo Livro </h1>
+<p><a href="/livros">Voltar para a lista de livros</a></p>
+<form method="post">
+    <div class="form-group">
+        <label for="titulo">Titulo</label>
+        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Digite o titulo do livro">
+    </div>
+    <div class="form-group">
+        <label for="isbn">Isbn</label>
+        <input type="isbn" class="form-control" id="isbn" name="isbn" placeholder="Digite o isbn">
+    </div>
+    <div class="form-group">
+        <label for="publicacao">Publicação</label>
+        <input type="publicacao" class="form-control" id="publicacao" name="publicacao" placeholder="Digite o ano de publicação">
+    </div>
+    <div class="form-group">
+        <label for="autor">Autor</label>
+        <input type="autor" class="form-control" id="autor" name="autor" placeholder="Digite o nome do autor do livro">
+    </div> 
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+<% include ../partials/footer.ejs %>

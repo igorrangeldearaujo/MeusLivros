@@ -1,0 +1,19 @@
+{
+  "name": "meus-livros",
+  "version": "1.0.0",
+  "description": "cadastro dos livros",
+  "main": "app.js",
+  "author": "Igor Rangel",
+  "license": "ISC",
+  "scripts": {
+    "start": "node home.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.0"
+  }
+}
