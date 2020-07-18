@@ -9,4 +9,5 @@ const livroModel = (sequelize, DataTypes) => {
     return Livro
 }
 
+
 module.exports = livroModel

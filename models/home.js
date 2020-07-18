@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')//Importando o módulo sequelize
-const sequelize = new Sequelize('cadlivros','root','password',{
+const sequelize = new Sequelize('cadlivros','root','root2020',{
     dialect: 'mysql',
     host: '127.0.0.1'
 })
